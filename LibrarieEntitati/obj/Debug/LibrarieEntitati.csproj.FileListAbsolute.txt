@@ -1,0 +1,5 @@
+D:\Scoala\Programare C#-PIU\Lab03_exemple\EvidentaStudenti\LibrarieEntitati\bin\Debug\LibrarieEntitati.dll
+D:\Scoala\Programare C#-PIU\Lab03_exemple\EvidentaStudenti\LibrarieEntitati\bin\Debug\LibrarieEntitati.pdb
+D:\Scoala\Programare C#-PIU\Lab03_exemple\EvidentaStudenti\LibrarieEntitati\obj\Debug\LibrarieEntitati.csprojAssemblyReference.cache
+D:\Scoala\Programare C#-PIU\Lab03_exemple\EvidentaStudenti\LibrarieEntitati\obj\Debug\LibrarieEntitati.dll
+D:\Scoala\Programare C#-PIU\Lab03_exemple\EvidentaStudenti\LibrarieEntitati\obj\Debug\LibrarieEntitati.pdb
