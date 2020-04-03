@@ -45,10 +45,16 @@ namespace ManagementStudenti
                         break;
                     case "T":
                         Console.WriteLine("Introduceti notele de la tastatura(cate o nota pe rand");
-                        
-                        for(int i=0;i<5;i++)
+                        int[] nota;
+                        for(int i=0;i<linii;i++)
                         {
-                            
+                            Console.WriteLine("Introduceti cate o nota pe rand: ");
+                            nota = new int[coloane];
+                            for(int j=0;j<coloane;j++)
+                            {
+                                nota[j] = Convert.ToInt32(Console.ReadLine());
+                            }
+                            tab.SetNoteRand(nota, coloane, i);
                         }
                         Console.ReadKey();
                         break;

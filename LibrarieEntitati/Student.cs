@@ -12,6 +12,7 @@ namespace LibrarieEntitati
         {
             for (int i = 0; i < 4; i++)
                 note[i] = new int[15];
+            
         }
 
         // constructor cu parametri
@@ -26,14 +27,14 @@ namespace LibrarieEntitati
         {
             
             // initializare vector cu note
-            string[] note_s = sirNote.Split(',');
+            string[] note_split = sirNote.Split(',');
             // DE IMPLEMENTAT:
             // extrage note din sir si adauga in vectorul note
     
             string[] splitNota;
             int contor_an = 0;
             
-            foreach(var nota in note_s)
+            foreach(var nota in note_split)
             {
                 int contor_coloana = 0;
                 splitNota = nota.Split(' ');
@@ -46,9 +47,18 @@ namespace LibrarieEntitati
                 contor_an++;  
                 
             }
-            
-
         }
+
+        public void SetNoteRand(int[] note, int nrnote, int an)
+        {
+            Array.Resize(ref this.note[an], this.note[an].Length + nrnote);
+
+            for (int i = 0; i < nrnote; i++)
+            {
+                this.note[an][i] = note[i];
+            }
+        }
+
         public void ConversieLaSir()
         {
             string afisare;
